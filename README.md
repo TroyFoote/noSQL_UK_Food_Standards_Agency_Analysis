@@ -8,10 +8,10 @@ The UK Food Standards Agency evaluates various establishments across the United 
 
 ### Requirements
 
-*MongoDB*
-*NoSQL_setup_starter.ipynb*
-*establishments.json*
-*PyMongo*
+*MongoDB* 
+*NoSQL_setup_starter.ipynb* 
+*establishments.json* 
+*PyMongo* 
 *Pretty Print*
 
 ### Database & Jupyter Notebook Set Up
@@ -27,10 +27,10 @@ The UK Food Standards Agency evaluates various establishments across the United 
 
 ### Requirements
 
-*MongoDB*
-*NoSQL_setup_starter.ipynb*
-*establishments.json*
-*PyMongo*
+*MongoDB* 
+*NoSQL_setup_starter.ipynb* 
+*establishments.json* 
+*PyMongo* 
 *Pretty Print*
 
 ### Update the Database
@@ -77,10 +77,10 @@ Make the following changes to the *establishments* collection:
 
 ### Requirements
 
-*MongoDB*
-*NoSQL_analysis_starter.ipynb*
-*establishments.json*
-*PyMongo*
+*MongoDB* 
+*NoSQL_analysis_starter.ipynb* 
+*establishments.json* 
+*PyMongo* 
 *Pretty Print*
 
 ### Exploratory Analysis
