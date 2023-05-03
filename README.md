@@ -1,37 +1,22 @@
-# Project Title: NoSQL-Challenge - UK-Food Analysis
+# Project Title: NoSQL - UK-Food Standards Agency Analysis
+Module 12
 
 ## Project Description
 
-The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
+The UK Food Standards Agency evaluates various establishments across the United Kingdom. You are to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
 ### Part 1: 
-
-### Requirements
-
-*MongoDB* 
-*NoSQL_setup_starter.ipynb* 
-*establishments.json* 
-*PyMongo* 
-*Pretty Print*
 
 ### Database & Jupyter Notebook Set Up
 
 1. Import data from the establishments.json file from your Terminal. Name the database *uk_food* and the collection *establishments*. Copy the text you used to import your data from your Terminal to a markdown cell in your notebook. 
-2. Import the requured libraries
+2. Import the required libraries
 3. Create an instance of Mongo Client
 4. Confirm the database has been created and loaded correctly.
     Confirm *UK_food* database and *establishments* collection are listed in MongoDB
     Find and display one document from the *establishments* collection using *find_one* and display with *pprint*
 
 ### Part 2: 
-
-### Requirements
-
-*MongoDB* 
-*NoSQL_setup_starter.ipynb* 
-*establishments.json* 
-*PyMongo* 
-*Pretty Print*
 
 ### Update the Database
 Use *NoSQL_setup_starter.ipynb*
@@ -75,14 +60,6 @@ Make the following changes to the *establishments* collection:
 
 ### Part 3: 
 
-### Requirements
-
-*MongoDB* 
-*NoSQL_analysis_starter.ipynb* 
-*establishments.json* 
-*PyMongo* 
-*Pretty Print*
-
 ### Exploratory Analysis
 
 Use *NoSQL_analysis_starter.ipynb*
@@ -103,8 +80,16 @@ The London Local Authority has a longer name than "London" so you will need to u
 You will need to compare the geocode to find the nearest locations. Search within 0.01 degree on either side of the latitude and longitude.
 You will need to use the aggregation method to answer this.
 
+### Dependencies
+
+* MongoDB
+* PyMongo 
+* Pretty Print
+* Json
+* Python
+* Pandas 
 
 ### References
-UK Food Standards AgencyLinks to an external site. (2022). UK food hygiene rating data API. https://ratings.food.gov.uk/open-data/en-GBLinks to an external site.. Contains public sector information licensed under the Open Government Licence v3.0Links to an external site.
+UK Food Standards Agency. (2022). UK food hygiene rating data API. https://ratings.food.gov.uk/open-data/en-GB. Contains public sector information licensed under the Open Government Licence v3.0.
 Accessed Sept 9, 2022 and Sept 12, 2022 with the establishment settings as follows: longitude=51.5072, latitude=-0.1276, maxdistancelimit=4567, pagesize=10000, sortoptionkey=distance, pagenumber=(1,2,3,4,5,6,7,8).
 
